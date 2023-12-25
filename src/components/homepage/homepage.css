@@ -1,0 +1,426 @@
+/* varun Style Banner start */
+.bannerContainer {
+  width: 100%;
+  height: 90vh;
+  padding: 0 12px;
+  
+}
+.banner {
+  width: 100%;
+  background-size: cover;
+  padding: 0 15px;
+  border-radius: 15px;
+  background-image: url("../../assets/images/homepage/banner\ Img.png");
+  min-height: 90vh;
+}
+/* varun Style Banner end */
+.card-container {
+  padding: 60px 0 60px 20px;
+}
+.inner-padding {
+  padding: 30px 20px;
+  min-width: 200px;
+  min-height: 250px;
+}
+.card-container::-webkit-scrollbar,
+.carousal-container::-webkit-scrollbar {
+  display: none;
+}
+.card-name,
+.card-experience,
+.card-years {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+.card-name {
+  font-weight: 600;
+  color: #111111;
+}
+.card-experience {
+  font-weight: 600px;
+  color: #111111;
+}
+.card-years {
+  font-weight: 600px;
+  color: rgba(18, 183, 182, 1);
+}
+.check-button {
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.08);
+  color: rgba(18, 183, 182, 1);
+  padding: 10px 5px;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500px;
+}
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.what-we-do-section {
+  padding: 40px 20px;
+}
+.what-we-do-section .grid-container {
+  padding: 100px 0;
+}
+.section-title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgba(31, 31, 31, 1);
+  margin-bottom: 30px;
+}
+.icon-container .circular-container {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  box-shadow: -20px -20px 50px 0px rgba(255, 255, 255, 1) inset;
+}
+.icon-container .circular-container img {
+  height: 34px;
+  width: 34px;
+}
+.icon-container .icon-box-heading {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #111111;
+}
+.icon-container .icon-box-desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #111111;
+}
+.property-container {
+  background-image: url("../../assets/images/homepage/propertyImage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+}
+.property-container .property-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 70px 20px;
+}
+.property-container .property-overlay .property-detail .name {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #ffffff;
+}
+.property-container .property-overlay .property-detail .address,
+.property-container .property-overlay .property-detail .price,
+.property-container .property-overlay .property-detail .pill-container .pill {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #ffffff;
+}
+.property-container .property-overlay .property-detail .pill-container .pill {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-project,
+.locality-text {
+  width: 100%;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 30px;
+}
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: auto;
+}
+.locality-card-container {
+  position: relative;
+  min-width: 300px;
+  min-height: 250px;
+  border-radius: 32px;
+}
+.locality-card-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+.locality-card-container .image-detail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.54);
+  border-radius: 32px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.locality-card-container .image-detail .location {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  padding-bottom: 5px;
+}
+.locality-card-container .image-detail .specification {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+.about-info {
+  background-color: rgb(255, 255, 255);
+}
+.logo-white {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+
+.awssld {
+  --organic-arrow-height: 15px;
+  --control-bullet-color: transparent;
+  --control-bullet-active-color: transparent; 
+}
+.awssld__controls__arrow-left, .awssld__controls__arrow-right {
+  --organic-arrow-height: 15px;
+  --control-bullet-color: transparent;
+  --control-bullet-active-color: transparent;
+}
+
+.awssld__bullets button {
+  width: 0px;
+  height:0px;
+  display: none !important;
+ background: transparent;
+}
+
+.get-touch-text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #000000;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 200;
+}
+.get-in-touch-form input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 50px;
+}
+.get-in-touch-form input[type="submit"] {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:#007882;
+  ;
+  width: max-content;
+  padding: 10px 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.get-in-touch-form input[type="text"]:focus {
+  outline: #ffffff;
+}
+
+.testimonials{
+    height :60vh;
+}
+
+/* Varun  css start*/
+
+.bg-img {
+  background-image: url(../../assets/images/homepage/cities/wepik-export-20230721072221s5Cb.png);
+  background-size: cover;
+  /* background-color: #111111; */
+}
+
+.CategoriesText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.imgcol {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.cardContainer .gridSpan:nth-child(1),
+.cardContainer .gridSpan:nth-child(4) {
+  grid-row: span 2;
+}
+.cardContainer .gridSpan:nth-child(2),
+.cardContainer .gridSpan:nth-child(3),
+.cardContainer .gridSpan:nth-child(5),
+.cardContainer .gridSpan:nth-child(6),
+.cardContainer .gridSpan:nth-child(7),
+.cardContainer .gridSpan:nth-child(8) {
+  grid-row: span 1;
+}
+
+.categoriesHW{
+  width: 400px;
+  height: 250px;
+}
+.topLocalties {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 90%
+  );
+}
+/* varun css end*/
+
+@media screen and (min-width: 768px) {
+  .banner-left {
+    padding: 30px 70px;
+  }
+  .inner-padding {
+    padding: 30px 20px;
+    min-width: 250px;
+    min-height: 300px;
+  }
+  .card-name,
+  .card-experience,
+  .card-years {
+    font-size: 16px;
+  }
+  .check-button {
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 500px;
+  }
+  .card-container {
+    padding: 32px 24px;
+  }
+  .what-we-do-section {
+    padding: 40px 70px;
+  }
+  .section-title {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(31, 31, 31, 1);
+  }
+  .property-container .property-overlay {
+    padding: 70px;
+  }
+  .about-image {
+    width: 80%;
+    height: 50%;
+  }
+  .about-project,
+  .locality-text {
+    width: 40%;
+  }
+  .locality-card-container {
+    min-width: 500px;
+    min-height: 350px;
+  }
+  .get-in-touch-form input[type="text"] {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .get-in-touch-form input[type="submit"] {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cardContainer .cardSpan1row2 {
+    display: block;
+  }
+  .cardSpan1row0 {
+    display: none;
+  }
+  /* input[type="text"] {
+    font-size: 24px;
+  }
+  } */
+}
+@media screen and (min-width: 1024px) {
+  .banner-text {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .cardContainer .cardSpan1row2,
+  .cardSpan1row0 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .categoriesheight {
+    height: 351px !important;
+  }
+  .categoriesHW{
+    width: 350px;
+    height: 200px;
+  }
+}

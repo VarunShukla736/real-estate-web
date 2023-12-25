@@ -1,0 +1,89 @@
+.navbar {
+  padding: 0 20px;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+.logo p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgb(0, 120, 130);
+  letter-spacing: -2px;
+}
+
+.items {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: transparent;
+  color: rgb(59, 65, 68);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.login-item {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: transparent;
+  color: rgb(59, 65, 68);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  border: 1px solid rgb(205, 209, 212);
+}
+/* .login-item {
+  background-color: rgb(205, 209, 212);
+} */
+.items.activeIndex {
+  background-color: rgb(0, 120, 130);
+  color: #ffffff;
+}
+.item-container {
+  display: none;
+}
+.mobile-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: rgb(205, 209, 212);
+  height: 100vh;
+  z-index: 9;
+  padding: 20px;
+}
+@media screen and (min-width: 920px) {
+  .item-container {
+    display: flex;
+    column-gap: 5px;
+  }
+  .login-item:hover {
+    background-color: rgb(205, 209, 212);
+  }
+  .items:hover {
+    background-color: rgb(0, 120, 130);
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .items,
+  .login-item {
+    font-size: 16px;
+  }
+}

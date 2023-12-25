@@ -1,0 +1,26 @@
+.modal-header .heading {
+  font-weight: 800;
+  font-size: 44px;
+  text-align: center;
+  color: #12b7b6;
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+.react-responsive-modal-closeButton:focus {
+  outline: none;
+}
+.react-responsive-modal-overlay {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.react-responsive-modal-modal {
+  background: #e5e5e5;
+  width: 300px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .react-responsive-modal-modal {
+    background: #e5e5e5;
+    width: 450px;
+  }
+}

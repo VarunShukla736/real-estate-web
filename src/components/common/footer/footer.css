@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+.footer .terms-conditions p {
+  color: #111111;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  cursor: pointer;
+}
+.footer .social-links .social-icon {
+  mix-blend-mode: difference;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 10px 70px;
+  }
+}

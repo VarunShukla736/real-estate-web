@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+.screen-width {
+  max-width: 1600px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.modal-class {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+.errorMsg {
+  font-size: 14px;
+  color: #ff0000;
+  font-weight: 400;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  padding-left: 5px;
+  margin-top: 3px;
+}
+.msg-container {
+  display: block;
+  margin: 0 auto;
+  min-height: 20px;
+  max-height: max-content;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.error-container {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.success-container {
+  color: #270;
+  background-color: #dff2bf;
+}
+.normal-container {
+  color: #111111;
+  background-color: #e5e5e5;
+}
+
+.msg-text {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 22px;
+  text-align: start;
+}
+.no-data-found {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(0, 120, 130);
+  text-align: center;
+}
+.top-margin {
+  margin-top: -10px;
+}
+.margin-auto {
+  margin: 0 auto;
+}

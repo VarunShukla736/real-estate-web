@@ -1,0 +1,98 @@
+.profileContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.profilePhoto {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.userImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userName {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 22px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+.role {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 16px;
+  text-transform: capitalize;
+  background-color: orange;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.email {
+  color: #767676;
+  font-size: 15px;
+  font-weight: 600;
+}
+.editButton {
+  width: max-content;
+  border: 2px solid #007882;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #007882;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #007882;
+  line-height: 48px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.editProfileForm {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(243, 243, 243, 1);
+}
+.profileBtn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.uploadBtn {
+  color: #ffffff;
+  background-color: #007882;
+}
+.removeBtn {
+  color: #eb5757;
+  border: 2px solid #007882;
+}
+.cancelBtn {
+  color: #007882;
+  border: 2px solid #007882;
+}
+
+@media screen and (min-width: 767px) {
+  .editProfileForm {
+    width: 70%;
+  }
+  .profileContainer {
+    flex-direction: row;
+  }
+}
